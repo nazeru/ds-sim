@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "core"
+version = "0.1.0"
+description = "Research simulator for best-effort message dissemination"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "networkx>=3.6.1",
+    "pyqtgraph>=0.14.0",
+    "pyside6>=6.11.1",
+]
+
+[project.scripts]
+dssim = "app.main:main"
+dssim-tui = "app.terminal.tui:launch_tui"
+dssim-qt = "app.qt.main:launch_qt"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app", "src"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/app",
+    "/src",
+    "/topology_presets",
+    "/README.md",
+    "/main.py",
+    "/pyproject.toml",
+]

@@ -1,0 +1,675 @@
+{
+  "kind": "clustered",
+  "adjacency": {
+    "node-0": [
+      "node-1",
+      "node-4",
+      "node-8",
+      "node-10",
+      "node-16",
+      "node-19",
+      "node-20",
+      "node-50",
+      "node-80"
+    ],
+    "node-1": [
+      "node-0",
+      "node-2",
+      "node-5",
+      "node-17"
+    ],
+    "node-2": [
+      "node-1",
+      "node-3",
+      "node-6",
+      "node-18"
+    ],
+    "node-3": [
+      "node-2",
+      "node-4",
+      "node-7",
+      "node-19"
+    ],
+    "node-4": [
+      "node-0",
+      "node-3",
+      "node-5",
+      "node-8"
+    ],
+    "node-5": [
+      "node-1",
+      "node-4",
+      "node-6",
+      "node-9"
+    ],
+    "node-6": [
+      "node-2",
+      "node-5",
+      "node-7",
+      "node-10"
+    ],
+    "node-7": [
+      "node-3",
+      "node-6",
+      "node-8",
+      "node-11"
+    ],
+    "node-8": [
+      "node-0",
+      "node-4",
+      "node-7",
+      "node-9",
+      "node-12"
+    ],
+    "node-9": [
+      "node-5",
+      "node-8",
+      "node-10",
+      "node-13"
+    ],
+    "node-10": [
+      "node-0",
+      "node-6",
+      "node-9",
+      "node-11",
+      "node-12",
+      "node-14",
+      "node-16",
+      "node-30",
+      "node-60",
+      "node-90"
+    ],
+    "node-11": [
+      "node-7",
+      "node-10",
+      "node-12",
+      "node-15"
+    ],
+    "node-12": [
+      "node-8",
+      "node-10",
+      "node-11",
+      "node-13",
+      "node-16"
+    ],
+    "node-13": [
+      "node-9",
+      "node-12",
+      "node-14",
+      "node-17"
+    ],
+    "node-14": [
+      "node-10",
+      "node-13",
+      "node-15",
+      "node-18"
+    ],
+    "node-15": [
+      "node-11",
+      "node-14",
+      "node-16",
+      "node-19"
+    ],
+    "node-16": [
+      "node-0",
+      "node-10",
+      "node-12",
+      "node-15",
+      "node-17"
+    ],
+    "node-17": [
+      "node-1",
+      "node-13",
+      "node-16",
+      "node-18"
+    ],
+    "node-18": [
+      "node-2",
+      "node-14",
+      "node-17",
+      "node-19"
+    ],
+    "node-19": [
+      "node-0",
+      "node-3",
+      "node-15",
+      "node-18"
+    ],
+    "node-20": [
+      "node-0",
+      "node-21",
+      "node-24",
+      "node-28",
+      "node-30",
+      "node-36",
+      "node-39",
+      "node-40",
+      "node-70"
+    ],
+    "node-21": [
+      "node-20",
+      "node-22",
+      "node-25",
+      "node-37"
+    ],
+    "node-22": [
+      "node-21",
+      "node-23",
+      "node-26",
+      "node-38"
+    ],
+    "node-23": [
+      "node-22",
+      "node-24",
+      "node-27",
+      "node-39"
+    ],
+    "node-24": [
+      "node-20",
+      "node-23",
+      "node-25",
+      "node-28"
+    ],
+    "node-25": [
+      "node-21",
+      "node-24",
+      "node-26",
+      "node-29"
+    ],
+    "node-26": [
+      "node-22",
+      "node-25",
+      "node-27",
+      "node-30"
+    ],
+    "node-27": [
+      "node-23",
+      "node-26",
+      "node-28",
+      "node-31"
+    ],
+    "node-28": [
+      "node-20",
+      "node-24",
+      "node-27",
+      "node-29",
+      "node-32"
+    ],
+    "node-29": [
+      "node-25",
+      "node-28",
+      "node-30",
+      "node-33"
+    ],
+    "node-30": [
+      "node-10",
+      "node-20",
+      "node-26",
+      "node-29",
+      "node-31",
+      "node-32",
+      "node-34",
+      "node-36",
+      "node-50",
+      "node-80"
+    ],
+    "node-31": [
+      "node-27",
+      "node-30",
+      "node-32",
+      "node-35"
+    ],
+    "node-32": [
+      "node-28",
+      "node-30",
+      "node-31",
+      "node-33",
+      "node-36"
+    ],
+    "node-33": [
+      "node-29",
+      "node-32",
+      "node-34",
+      "node-37"
+    ],
+    "node-34": [
+      "node-30",
+      "node-33",
+      "node-35",
+      "node-38"
+    ],
+    "node-35": [
+      "node-31",
+      "node-34",
+      "node-36",
+      "node-39"
+    ],
+    "node-36": [
+      "node-20",
+      "node-30",
+      "node-32",
+      "node-35",
+      "node-37"
+    ],
+    "node-37": [
+      "node-21",
+      "node-33",
+      "node-36",
+      "node-38"
+    ],
+    "node-38": [
+      "node-22",
+      "node-34",
+      "node-37",
+      "node-39"
+    ],
+    "node-39": [
+      "node-20",
+      "node-23",
+      "node-35",
+      "node-38"
+    ],
+    "node-40": [
+      "node-20",
+      "node-41",
+      "node-44",
+      "node-48",
+      "node-50",
+      "node-56",
+      "node-59",
+      "node-60",
+      "node-90"
+    ],
+    "node-41": [
+      "node-40",
+      "node-42",
+      "node-45",
+      "node-57"
+    ],
+    "node-42": [
+      "node-41",
+      "node-43",
+      "node-46",
+      "node-58"
+    ],
+    "node-43": [
+      "node-42",
+      "node-44",
+      "node-47",
+      "node-59"
+    ],
+    "node-44": [
+      "node-40",
+      "node-43",
+      "node-45",
+      "node-48"
+    ],
+    "node-45": [
+      "node-41",
+      "node-44",
+      "node-46",
+      "node-49"
+    ],
+    "node-46": [
+      "node-42",
+      "node-45",
+      "node-47",
+      "node-50"
+    ],
+    "node-47": [
+      "node-43",
+      "node-46",
+      "node-48",
+      "node-51"
+    ],
+    "node-48": [
+      "node-40",
+      "node-44",
+      "node-47",
+      "node-49",
+      "node-52"
+    ],
+    "node-49": [
+      "node-45",
+      "node-48",
+      "node-50",
+      "node-53"
+    ],
+    "node-50": [
+      "node-0",
+      "node-30",
+      "node-40",
+      "node-46",
+      "node-49",
+      "node-51",
+      "node-52",
+      "node-54",
+      "node-56",
+      "node-70"
+    ],
+    "node-51": [
+      "node-47",
+      "node-50",
+      "node-52",
+      "node-55"
+    ],
+    "node-52": [
+      "node-48",
+      "node-50",
+      "node-51",
+      "node-53",
+      "node-56"
+    ],
+    "node-53": [
+      "node-49",
+      "node-52",
+      "node-54",
+      "node-57"
+    ],
+    "node-54": [
+      "node-50",
+      "node-53",
+      "node-55",
+      "node-58"
+    ],
+    "node-55": [
+      "node-51",
+      "node-54",
+      "node-56",
+      "node-59"
+    ],
+    "node-56": [
+      "node-40",
+      "node-50",
+      "node-52",
+      "node-55",
+      "node-57"
+    ],
+    "node-57": [
+      "node-41",
+      "node-53",
+      "node-56",
+      "node-58"
+    ],
+    "node-58": [
+      "node-42",
+      "node-54",
+      "node-57",
+      "node-59"
+    ],
+    "node-59": [
+      "node-40",
+      "node-43",
+      "node-55",
+      "node-58"
+    ],
+    "node-60": [
+      "node-10",
+      "node-40",
+      "node-61",
+      "node-64",
+      "node-68",
+      "node-70",
+      "node-76",
+      "node-79",
+      "node-80"
+    ],
+    "node-61": [
+      "node-60",
+      "node-62",
+      "node-65",
+      "node-77"
+    ],
+    "node-62": [
+      "node-61",
+      "node-63",
+      "node-66",
+      "node-78"
+    ],
+    "node-63": [
+      "node-62",
+      "node-64",
+      "node-67",
+      "node-79"
+    ],
+    "node-64": [
+      "node-60",
+      "node-63",
+      "node-65",
+      "node-68"
+    ],
+    "node-65": [
+      "node-61",
+      "node-64",
+      "node-66",
+      "node-69"
+    ],
+    "node-66": [
+      "node-62",
+      "node-65",
+      "node-67",
+      "node-70"
+    ],
+    "node-67": [
+      "node-63",
+      "node-66",
+      "node-68",
+      "node-71"
+    ],
+    "node-68": [
+      "node-60",
+      "node-64",
+      "node-67",
+      "node-69",
+      "node-72"
+    ],
+    "node-69": [
+      "node-65",
+      "node-68",
+      "node-70",
+      "node-73"
+    ],
+    "node-70": [
+      "node-20",
+      "node-50",
+      "node-60",
+      "node-66",
+      "node-69",
+      "node-71",
+      "node-72",
+      "node-74",
+      "node-76",
+      "node-90"
+    ],
+    "node-71": [
+      "node-67",
+      "node-70",
+      "node-72",
+      "node-75"
+    ],
+    "node-72": [
+      "node-68",
+      "node-70",
+      "node-71",
+      "node-73",
+      "node-76"
+    ],
+    "node-73": [
+      "node-69",
+      "node-72",
+      "node-74",
+      "node-77"
+    ],
+    "node-74": [
+      "node-70",
+      "node-73",
+      "node-75",
+      "node-78"
+    ],
+    "node-75": [
+      "node-71",
+      "node-74",
+      "node-76",
+      "node-79"
+    ],
+    "node-76": [
+      "node-60",
+      "node-70",
+      "node-72",
+      "node-75",
+      "node-77"
+    ],
+    "node-77": [
+      "node-61",
+      "node-73",
+      "node-76",
+      "node-78"
+    ],
+    "node-78": [
+      "node-62",
+      "node-74",
+      "node-77",
+      "node-79"
+    ],
+    "node-79": [
+      "node-60",
+      "node-63",
+      "node-75",
+      "node-78"
+    ],
+    "node-80": [
+      "node-0",
+      "node-30",
+      "node-60",
+      "node-81",
+      "node-84",
+      "node-88",
+      "node-90",
+      "node-96",
+      "node-99"
+    ],
+    "node-81": [
+      "node-80",
+      "node-82",
+      "node-85",
+      "node-97"
+    ],
+    "node-82": [
+      "node-81",
+      "node-83",
+      "node-86",
+      "node-98"
+    ],
+    "node-83": [
+      "node-82",
+      "node-84",
+      "node-87",
+      "node-99"
+    ],
+    "node-84": [
+      "node-80",
+      "node-83",
+      "node-85",
+      "node-88"
+    ],
+    "node-85": [
+      "node-81",
+      "node-84",
+      "node-86",
+      "node-89"
+    ],
+    "node-86": [
+      "node-82",
+      "node-85",
+      "node-87",
+      "node-90"
+    ],
+    "node-87": [
+      "node-83",
+      "node-86",
+      "node-88",
+      "node-91"
+    ],
+    "node-88": [
+      "node-80",
+      "node-84",
+      "node-87",
+      "node-89",
+      "node-92"
+    ],
+    "node-89": [
+      "node-85",
+      "node-88",
+      "node-90",
+      "node-93"
+    ],
+    "node-90": [
+      "node-10",
+      "node-40",
+      "node-70",
+      "node-80",
+      "node-86",
+      "node-89",
+      "node-91",
+      "node-92",
+      "node-94",
+      "node-96"
+    ],
+    "node-91": [
+      "node-87",
+      "node-90",
+      "node-92",
+      "node-95"
+    ],
+    "node-92": [
+      "node-88",
+      "node-90",
+      "node-91",
+      "node-93",
+      "node-96"
+    ],
+    "node-93": [
+      "node-89",
+      "node-92",
+      "node-94",
+      "node-97"
+    ],
+    "node-94": [
+      "node-90",
+      "node-93",
+      "node-95",
+      "node-98"
+    ],
+    "node-95": [
+      "node-91",
+      "node-94",
+      "node-96",
+      "node-99"
+    ],
+    "node-96": [
+      "node-80",
+      "node-90",
+      "node-92",
+      "node-95",
+      "node-97"
+    ],
+    "node-97": [
+      "node-81",
+      "node-93",
+      "node-96",
+      "node-98"
+    ],
+    "node-98": [
+      "node-82",
+      "node-94",
+      "node-97",
+      "node-99"
+    ],
+    "node-99": [
+      "node-80",
+      "node-83",
+      "node-95",
+      "node-98"
+    ]
+  }
+}
